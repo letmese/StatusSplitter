@@ -8,6 +8,8 @@ app/build/
 
 ## Logs & test suites
 *.log
+videos/
+*.mp4
 
 ## IDE
 .idea/

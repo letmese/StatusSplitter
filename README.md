@@ -22,7 +22,23 @@ Built with a **lossless sync-frame GOP remuxing engine**, StatusSplitter partiti
 
 ---
 
-## ✨ Key Features & Technical Highlights
+## 📱 App Preview (Live Firebase Test Lab Pixel 5 Screenshots)
+
+<div align="center">
+  <img src="screenshots/0.png" width="220" alt="Home Screen" />
+  <img src="screenshots/1.png" width="220" alt="Split Screen" />
+  <img src="screenshots/2.png" width="220" alt="Settings & Picker" />
+  <img src="screenshots/3.png" width="220" alt="Processing View" />
+</div>
+
+<div align="center">
+  <img src="screenshots/4.png" width="220" alt="Playback Preview" />
+  <img src="screenshots/5.png" width="220" alt="Segment List" />
+  <img src="screenshots/7.png" width="220" alt="Export Flow" />
+  <img src="screenshots/10.png" width="220" alt="Batch Sharing" />
+</div>
+
+---
 
 - ⚡ **Lossless Remuxing (Zero Quality Loss):** Operates on H.264 + AAC MP4 streams using sync-frame-aligned cuts (`planRanges`). Zero generational compression or re-encoding artifacts.
 - 🎯 **Accurate 30-Second Boundaries:** Dynamically detects Keyframes (I-frames) to cut at clean boundaries without audio sync drift, freeze frames, or corruption.
