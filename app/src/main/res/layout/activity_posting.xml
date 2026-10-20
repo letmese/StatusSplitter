@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout_posting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:fillViewport="true"
+    android:fitsSystemWindows="false"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Mode selector (for reference) -->
+        <RadioGroup
+            android:id="@+id/rg_posting_mode_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <!-- Hidden, mode set from ChunkReviewActivity -->
+        </RadioGroup>
+
+        <ProgressBar
+            android:id="@+id/progress_posting"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_posting_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preparing..."
+            android:textSize="15sp"
+            android:textColor="@color/text_primary"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@drawable/rounded_bg"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btn_next_chunk"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Start"
+            android:textSize="16sp"
+            android:backgroundTint="@color/green_whatsapp"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>

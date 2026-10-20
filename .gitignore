@@ -1,0 +1,16 @@
+## Gradle & Android Build outputs
+.gradle/
+build/
+app/build/
+*.apk
+*.idsig
+*.aab
+
+## Logs & test suites
+*.log
+
+## IDE
+.idea/
+.kotlin/
+*.iml
+local.properties

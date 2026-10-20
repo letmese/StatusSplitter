@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_whatsapp">#25D366</color>
+    <color name="dark_green">#128C7E</color>
+    <color name="blue_accent">#34B7F1</color>
+    <color name="bg_light">#FAFAFA</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="scrim_color">#66000000</color>
+</resources>

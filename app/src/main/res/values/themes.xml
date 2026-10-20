@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.StatusSplitter" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#25D366</item>
+        <item name="colorPrimaryDark">#128C7E</item>
+        <item name="colorAccent">#34B7F1</item>
+        
+        <!-- Edge-to-edge: make status bar and nav bar transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Enable edge-to-edge on API 29+ -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
+    </style>
+    
+    <!-- Splash screen theme -->
+    <style name="Theme.StatusSplitter.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#25D366</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.StatusSplitter</item>
+    </style>
+</resources>

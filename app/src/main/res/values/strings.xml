@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Status Splitter</string>
+    <string name="pick_video">Select Video</string>
+    <string name="split_video">Split Video</string>
+    <string name="review_chunks">Review Chunks</string>
+    <string name="post_to_status">Post to Status</string>
+    <string name="posting_mode">Posting Mode</string>
+    <string name="guided_auto">Guided Auto-Post</string>
+    <string name="manual_assist">Manual Tap-Through</string>
+    <string name="chunk_label">Part %1$d of %2$d (%3$ds)</string>
+    <string name="status_limit">Status Limit (seconds)</string>
+    <string name="default_limit">90</string>
+    <string name="conservative_limit">60</string>
+    
+    <!-- Permission strings -->
+    <string name="permission_granted">Permissions granted!</string>
+    <string name="permission_denied_title">Permission Required</string>
+    <string name="permission_denied_message">This app needs access to your media files to select and split videos for WhatsApp Status.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="permission_rationale">Status Splitter needs access to your photos and media files to select videos for splitting and posting to WhatsApp Status.</string>
+    
+    <!-- Accessibility Service -->
+    <string name="a11y_disclosure">This app uses Accessibility Service to help you post your own video chunks to WhatsApp Status. The service only activates when you explicitly start a posting session and requires your supervision. No data is collected or transmitted.</string>
+    <string name="a11y_prompt_title">Enable Accessibility Service</string>
+    <string name="a11y_prompt_message">Guided Auto-Post mode requires the Accessibility Service to help navigate WhatsApp\'s interface.\n\nThis service will ONLY be used when you explicitly start a posting session and requires your supervision. No data is collected or transmitted.\n\nTap OK to open Settings and enable StatusSplitter in Accessibility Services.</string>
+    <string name="a11y_open_settings">Open Settings</string>
+    <string name="a11y_use_manual">Use Manual Mode</string>
+    <string name="a11y_enabled">Accessibility Service enabled</string>
+    <string name="a11y_not_enabled">Please enable Accessibility Service in Settings</string>
+    
+    <!-- Posting -->
+    <string name="posting_chunk">Posting chunk %1$d/%2$d…</string>
+    <string name="chunk_ready">Chunk %1$d ready</string>
+    <string name="share_via_whatsapp">Share via WhatsApp</string>
+    <string name="tap_next_in_whatsapp">Tap Send in WhatsApp, then return here</string>
+    <string name="posting_complete">Posting complete!</string>
+    <string name="select_at_least_one">Please select at least one chunk</string>
+</resources>
