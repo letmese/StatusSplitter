@@ -25,17 +25,17 @@ Built with a **lossless sync-frame GOP remuxing engine**, StatusSplitter partiti
 ## 📱 App Preview (Live Firebase Test Lab Pixel 5 Screenshots)
 
 <div align="center">
-  <img src="screenshots/0.png" width="220" alt="Home Screen" />
-  <img src="screenshots/1.png" width="220" alt="Split Screen" />
-  <img src="screenshots/2.png" width="220" alt="Settings & Picker" />
-  <img src="screenshots/3.png" width="220" alt="Processing View" />
+  <img src="screenshots/1.png" width="220" alt="StatusSplitter Main Screen" />
+  <img src="screenshots/3.png" width="220" alt="Split Processing & Remuxing" />
+  <img src="screenshots/4.png" width="220" alt="Playback Review & Trim" />
+  <img src="screenshots/5.png" width="220" alt="Segment List & Boundaries" />
 </div>
 
 <div align="center">
-  <img src="screenshots/4.png" width="220" alt="Playback Preview" />
-  <img src="screenshots/5.png" width="220" alt="Segment List" />
   <img src="screenshots/7.png" width="220" alt="Export Flow" />
-  <img src="screenshots/10.png" width="220" alt="Batch Sharing" />
+  <img src="screenshots/10.png" width="220" alt="Batch Social Sharing" />
+  <img src="screenshots/2.png" width="220" alt="Automation Guided Mode Setup" />
+  <img src="screenshots/14.png" width="220" alt="Completed Export Summary" />
 </div>
 
 ---
